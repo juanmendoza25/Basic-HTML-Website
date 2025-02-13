@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CV in HTML">
+    <meta name="keywords" content="html, CV">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://github.com/juanmendoza25">
+    <title>Website w/navigation bar</title>
+    <link rel="icon" href="img/website.png" type="image/png">
+    <style>
+        .hor ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            padding: 20px ;
+
+        }
+        .hor li {
+            margin: 10px;
+        }
+        .hor a {
+            text-decoration: none;
+        }
+        table, th, td {
+            text-align: center;
+            /*border: 1px solid black;*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="hor">
+        <ul>
+            <li><a href="index.html">Home page /</a></li>
+            <li><a href="projects.html">Projects /</a></li>
+            <li><a href="articles.html">Articles /</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h3><img src="img/user.png" width="20"/> Coraje el perro cobarde</h3>
+    <h1 style="text-align: center;padding-top: 50px;">Projects that I've been workin on</h1>
+    <hr style="height: 5px; background-color: black; border-radius: 3px;">
+    <table>
+        <thead>
+            <tr>
+                <th style="font-size: x-large;"> Projects</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>HTML Only Portafolio</td>
+            </tr>
+            <tr>
+                <td>Quiz app </td>
+            </tr>
+            <tr>
+                <td>Calculator </td>
+            </tr>
+            <tr>
+                <td>Product upcoming </td>
+            </tr>
+            <tr>
+                <td>Webpage </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
